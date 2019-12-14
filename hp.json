@@ -4,287 +4,287 @@
     "name": "Albus Dumbledore",
     "group": 0,
     "id": 0,
-    "count": 3
+    "count": 15
   },
   {
     "bio": "Best friend of James Potter and godfather of Harry.",
     "name": "McGonagall",
     "group": 0,
     "id": 1,
-    "count": 23
+    "count": 16
   },
   {
     "bio": "Killed by a werewolf. She was a gryffindor student who dated Ron.",
     "name": "Hagrid",
     "group": 0,
     "id": 2,
-    "count": 3
+    "count": 40
   },
   {
     "bio": "Ravenclaw student who dated Cedric Diggory and Harry Potter.",
     "name": "Petunia",
-    "group": 0,
+    "group": 1,
     "id": 3,
-    "count": 7
+    "count": 14
   },
   {
     "bio": "Father of Crabbe and death0eater who escaped Azkaban.",
     "name": "Dudley",
     "group": 1,
     "id": 4,
-    "count": 8
+    "count": 5
   },
   {
     "bio": "Slytherin student who was best friends with Goyle and followed Draco.",
     "name": "Vernon",
     "group": 1,
     "id": 5,
-    "count": 7
+    "count": 13
   },
   {
     "bio": "Head of the department of Internation Magical Cooperation. Killed by his son.",
     "name": "Harry",
     "group": 0,
     "id": 6,
-    "count": 4
+    "count": 51
   },
   {
     "bio": "Death Eater who impersonated Alastor Moody.",
     "name": "Snake",
-    "group": 1,
+    "group": 0,
     "id": 7,
-    "count": 10
+    "count": 2
   },
   {
     "bio": "Participated in the Triwizard tournament and married Bill Weasley.",
     "name": "Barkeep Tom",
     "group": 0,
     "id": 8,
-    "count": 9
+    "count": 1
   },
   {
     "bio": "Participated in the Triwizard tournament and got killed by Voldemort.",
     "name": "Quirrell",
-    "group": 0,
+    "group": 1,
     "id": 9,
-    "count": 3
+    "count": 7
   },
   {
     "bio": "Albus' brother and owner of Hog's Head.",
     "name": "Griphook",
     "group": 0,
     "id": 10,
-    "count": 5
+    "count": 2
   },
   {
     "bio": "Headmaster of Hogwards killed by Snape.",
     "name": "Ollivander",
     "group": 0,
     "id": 11,
-    "count": 36
+    "count": 4
   },
   {
     "bio": "Muggle son of Vernon and Petunia and first0cousin of Harry.",
     "name": "Trainmaster",
     "group": 0,
     "id": 12,
-    "count": 4
+    "count": 1
   },
   {
     "bio": "Harry's aunt and sister of Lily.",
     "name": "Mrs. Weasley",
     "group": 0,
     "id": 13,
-    "count": 5
+    "count": 4
   },
   {
     "bio": "Harry's muggle uncle.",
     "name": "George",
     "group": 0,
     "id": 14,
-    "count": 4
+    "count": 3
   },
   {
     "bio": "Squib caretake of Hogwards.",
     "name": "Fred",
     "group": 0,
     "id": 15,
-    "count": 11
+    "count": 3
   },
   {
     "bio": "Harry's friend and member of Dumbledore's army.",
     "name": "Ginny",
     "group": 0,
     "id": 16,
-    "count": 8
+    "count": 1
   },
   {
     "bio": "Creator of the Philosopher's Stone.",
-    "name": "Nicolas Flamel",
+    "name": "Susan Bones",
     "group": 0,
-    "id": 17,
+    "id": 37,
     "count": 1
   },
   {
     "bio": "Minister of Magic that was forced to resign.",
     "name": "Ron",
     "group": 0,
-    "id": 18,
-    "count": 7
+    "id": 17,
+    "count": 33
   },
   {
     "bio": "Death Eater and father of Gregory Goyle.",
     "name": "Train lady",
-    "group": 1,
-    "id": 19,
-    "count": 3
+    "group": 0,
+    "id": 18,
+    "count": 1
   },
   {
     "bio": "Best friend of Crabbe. Slytherin student and dies by falling into Fiendfyre.",
     "name": "Hermione",
-    "group": 1,
-    "id": 20,
-    "count": 5
+    "group": 0,
+    "id": 19,
+    "count": 24
   },
   {
     "bio": "One of Harry's best friend and marries Ron Weasley.",
     "name": "Neville",
     "group": 0,
-    "id": 21,
-    "count": 35
+    "id": 20,
+    "count": 5
   },
   {
     "bio": "Half0giant who loves Harry. He was the keeper of Keys and Grounds at Hogwards.",
     "name": "Malfoy",
-    "group": 0,
-    "id": 22,
-    "count": 12
+    "group": 1,
+    "id": 21,
+    "count": 11
   },
   {
     "bio": "Highmaster of Durmstrang and reformed death0eater.",
     "name": "Sorting Hat",
-    "group": 1,
-    "id": 23,
-    "count": 3
+    "group": 0,
+    "id": 22,
+    "count": 5
   },
   {
     "bio": "Participant in the Triwizard tournament. Dated Hermione.",
     "name": "Seamus",
     "group": 0,
-    "id": 24,
-    "count": 5
+    "id": 23,
+    "count": 4
   },
   {
     "bio": "Death Eater who was killed by Molly Weasley.",
     "name": "Percy",
-    "group": 1,
-    "id": 25,
-    "count": 8
+    "group": 0,
+    "id": 24,
+    "count": 7
   },
   {
     "bio": "Mother of Neville who was tortured by Bellatrix.",
     "name": "Nearly headless Nich",
     "group": 0,
-    "id": 26,
+    "id": 25,
     "count": 3
   },
   {
     "bio": "Father of Neville who was tortured by Bellatrix.",
     "name": "Fat Lady",
     "group": 0,
-    "id": 27,
-    "count": 3
+    "id": 26,
+    "count": 1
   },
   {
     "bio": "Gryffindor student who was a member of Dumbledore's army.",
     "name": "Snape",
-    "group": 0,
-    "id": 28,
-    "count": 11
+    "group": 1,
+    "id": 27,
+    "count": 9
   },
   {
     "bio": "Ravenclaw student who was a member of Dumbledore's army.",
     "name": "Dean",
     "group": 0,
-    "id": 29,
-    "count": 5
+    "id": 28,
+    "count": 1
   },
   {
     "bio": "Father of Luna and editor of The Quibbler.",
     "name": "Madam Hooch",
     "group": 0,
-    "id": 30,
-    "count": 1
+    "id": 29,
+    "count": 7
   },
   {
     "bio": "Friend of James Potter and werewolf. He married Nymphadora.",
     "name": "Filch",
-    "group": 0,
-    "id": 31,
-    "count": 9
+    "group": 1,
+    "id": 30,
+    "count": 5
   },
   {
     "bio": "Slytherin student who had many arguments with Harry.",
     "name": "Oliver",
-    "group": 1,
-    "id": 32,
-    "count": 7
+    "group": 0,
+    "id": 31,
+    "count": 5
   },
   {
     "bio": "Father of Draco and influential Death0Eater.",
     "name": "Flitwick",
-    "group": 1,
-    "id": 33,
-    "count": 10
+    "group": 0,
+    "id": 32,
+    "count": 3
   },
   {
     "bio": "Mother of Draco and sister of Bellatrix.",
     "name": "Lee Jordan",
-    "group": 1,
-    "id": 34,
+    "group": 0,
+    "id": 33,
     "count": 4
   },
   {
     "bio": "Half0giantess and headmistress of Beauxbatons.",
     "name": "Flint",
-    "group": 0,
-    "id": 35,
-    "count": 4
+    "group": 1,
+    "id": 34,
+    "count": 1
   },
   {
     "bio": "Professor of Transfiguration and head of Gryffindor.",
     "name": "Firenze",
     "group": 0,
-    "id": 36,
-    "count": 13
+    "id": 35,
+    "count": 3
   },
   {
     "bio": "Retired auror and member of the order of the Phoenix. Killed by Voldemort.",
     "name": "Voldemort",
-    "group": 0,
-    "id": 37,
-    "count": 11
+    "group": 1,
+    "id": 36,
+    "count": 7
   },
   {
     "bio": "Retired auror and member of the order of the Phoenix. Killed by Voldemort.",
     "name": "Mr weasley",
     "group": 0,
     "id": 38,
-    "count": 11
+    "count": 1
   },
   {
     "bio": "Retired auror and member of the order of the Phoenix. Killed by Voldemort.",
     "name": "Amanda",
     "group": 0,
     "id": 39,
-    "count": 11
+    "count": 1
   },
   {
     "bio": "Retired auror and member of the order of the Phoenix. Killed by Voldemort.",
     "name": "Filch'cat",
-    "group": 0,
+    "group": 1,
     "id": 40,
-    "count": 11
+    "count": 1
   }
   ],
 	"links": [
@@ -327,7 +327,7 @@
         }, {
             "source": 0,
             "target": 21,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 0,
             "target": 23,
@@ -387,7 +387,7 @@
         }, {
             "source": 1,
             "target": 21,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 1,
             "target": 23,
@@ -447,7 +447,7 @@
         }, {
             "source": 2,
             "target": 21,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 2,
             "target": 23,
@@ -591,7 +591,7 @@
         }, {
             "source": 6,
             "target": 21,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 6,
             "target": 22,
@@ -663,7 +663,7 @@
         }, {
             "source": 9,
             "target": 36,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 10,
             "target": 2,
@@ -755,7 +755,7 @@
         }, {
             "source": 17,
             "target": 9,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 17,
             "target": 14,
@@ -771,7 +771,7 @@
         }, {
             "source": 17,
             "target": 21,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 17,
             "target": 22,
@@ -823,7 +823,7 @@
         }, {
             "source": 19,
             "target": 9,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 19,
             "target": 17,
@@ -835,7 +835,7 @@
         }, {
             "source": 19,
             "target": 21,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 19,
             "target": 22,
@@ -887,7 +887,7 @@
         }, {
             "source": 20,
             "target": 21,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 20,
             "target": 29,
@@ -895,31 +895,31 @@
         }, {
             "source": 21,
             "target": 0,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 21,
             "target": 1,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 21,
             "target": 2,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 21,
             "target": 6,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 21,
             "target": 17,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 21,
             "target": 19,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 21,
             "target": 22,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 21,
             "target": 27,
@@ -927,7 +927,7 @@
         }, {
             "source": 21,
             "target": 30,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 22,
             "target": 6,
@@ -943,7 +943,7 @@
         }, {
             "source": 22,
             "target": 21,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 0,
             "target": 37,
@@ -1027,7 +1027,7 @@
         }, {
             "source": 27,
             "target": 9,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 27,
             "target": 17,
@@ -1079,7 +1079,7 @@
         }, {
             "source": 30,
             "target": 9,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 30,
             "target": 17,
@@ -1151,11 +1151,11 @@
         }, {
             "source": 36,
             "target": 6,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 36,
             "target": 9,
-            "value": "win"
+            "value": "loss"
         }, {
             "source": 37,
             "target": 0,
