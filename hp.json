@@ -267,23 +267,23 @@
   },
   {
     "bio": "Retired auror and member of the order of the Phoenix. Killed by Voldemort.",
-    "name": "Mr weasley"
+    "name": "Mr weasley",
     "group": 0,
-    "id": 38
+    "id": 38,
     "count": 11
   },
   {
     "bio": "Retired auror and member of the order of the Phoenix. Killed by Voldemort.",
-    "name": "Amanda"
+    "name": "Amanda",
     "group": 0,
-    "id": 39
+    "id": 39,
     "count": 11
   },
   {
     "bio": "Retired auror and member of the order of the Phoenix. Killed by Voldemort.",
-    "name": "Filch'cat"
+    "name": "Filch'cat",
     "group": 0,
-    "id": 40
+    "id": 40,
     "count": 11
   }
   ],
@@ -291,894 +291,894 @@
 		{
             "source": 0,
             "target": 1,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 2,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 9,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 14,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 15,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 17,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 19,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 20,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 21,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 23,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 24,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 27,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 28,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 31,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 33,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 34,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 37,
-            value: "win"
+            "value": "win"
         }, {
             "source": 1,
             "target": 0,
-            value: "win"
+            "value": "win"
         }, {
             "source": 1,
             "target": 2,
-            value: "win"
+            "value": "win"
         }, {
             "source": 1,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 1,
             "target": 9,
-            value: "win"
+            "value": "win"
         }, {
             "source": 1,
             "target": 17,
-            value: "win"
+            "value": "win"
         }, {
             "source": 1,
             "target": 19,
-            value: "win"
+            "value": "win"
         }, {
             "source": 1,
             "target": 21,
-            value: "win"
+            "value": "win"
         }, {
             "source": 1,
             "target": 23,
-            value: "win"
+            "value": "win"
         }, {
             "source": 1,
             "target": 28,
-            value: "win"
+            "value": "win"
         }, {
             "source": 1,
             "target": 31,
-            value: "win"
+            "value": "win"
         }, {
             "source": 1,
             "target": 33,
-            value: "win"
+            "value": "win"
         }, {
             "source": 1,
             "target": 37,
-            value: "win"
+            "value": "win"
         }, {
             "source": 2,
             "target": 0,
-            value: "win"
+            "value": "win"
         }, {
             "source": 2,
             "target": 1,
-            value: "win"
+            "value": "win"
         }, {
             "source": 2,
             "target": 3,
-            value: "win"
+            "value": "win"
         }, {
             "source": 2,
             "target": 4,
-            value: "win"
+            "value": "win"
         }, {
             "source": 2,
             "target": 5,
-            value: "win"
+            "value": "win"
         }, {
             "source": 2,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 2,
             "target": 9,
-            value: "win"
+            "value": "win"
         }, {
             "source": 2,
             "target": 10,
-            value: "win"
+            "value": "win"
         }, {
             "source": 2,
             "target": 17,
-            value: "win"
+            "value": "win"
         }, {
             "source": 2,
             "target": 21,
-            value: "win"
+            "value": "win"
         }, {
             "source": 2,
             "target": 23,
-            value: "win"
+            "value": "win"
         }, {
             "source": 2,
             "target": 28,
-            value: "win"
+            "value": "win"
         }, {
             "source": 2,
             "target": 30,
-            value: "win"
+            "value": "win"
         }, {
             "source": 2,
             "target": 33,
-            value: "win"
+            "value": "win"
         }, {
             "source": 3,
             "target": 2,
-            value: "win"
+            "value": "win"
         }, {
             "source": 3,
             "target": 4,
-            value: "win"
+            "value": "win"
         }, {
             "source": 3,
             "target": 5,
-            value: "win"
+            "value": "win"
         }, {
             "source": 3,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 4,
             "target": 2,
-            value: "win"
+            "value": "win"
         }, {
             "source": 4,
             "target": 3,
-            value: "win"
+            "value": "win"
         }, {
             "source": 4,
             "target": 5,
-            value: "win"
+            "value": "win"
         }, {
             "source": 4,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 5,
             "target": 2,
-            value: "win"
+            "value": "win"
         }, {
             "source": 5,
             "target": 3,
-            value: "win"
+            "value": "win"
         }, {
             "source": 5,
             "target": 4,
-            value: "win"
+            "value": "win"
         }, {
             "source": 5,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 5,
             "target": 20,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 0,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 1,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 2,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 3,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 4,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 5,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 7,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 9,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 10,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 11,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 12,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 13,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 14,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 15,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 16,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 17,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 18,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 21,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 22,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 23,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 24,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 27,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 30,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 31,
-            value: "win"
+            "value": "win"
         }, {
             "source": 6,
             "target": 32,
-            value: "win"
+            "value": "win"
         }, {
             "source": 7,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 8,
             "target": 2,
-            value: "win"
+            "value": "win"
         }, {
             "source": 9,
             "target": 0,
-            value: "win"
+            "value": "win"
         }, {
             "source": 9,
             "target": 1,
-            value: "win"
+            "value": "win"
         }, {
             "source": 9,
             "target": 2,
-            value: "win"
+            "value": "win"
         }, {
             "source": 9,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 9,
             "target": 17,
-            value: "win"
+            "value": "win"
         }, {
             "source": 9,
             "target": 19,
-            value: "win"
+            "value": "win"
         }, {
             "source": 9,
             "target": 27,
-            value: "win"
+            "value": "win"
         }, {
             "source": 9,
             "target": 30,
-            value: "win"
+            "value": "win"
         }, {
             "source": 9,
             "target": 36,
-            value: "win"
+            "value": "win"
         }, {
             "source": 10,
             "target": 2,
-            value: "win"
+            "value": "win"
         }, {
             "source": 10,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 11,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 12,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 13,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 13,
             "target": 14,
-            value: "win"
+            "value": "win"
         }, {
             "source": 13,
             "target": 15,
-            value: "win"
+            "value": "win"
         }, {
             "source": 13,
             "target": 24,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 38,
-            value: "win"
+            "value": "win"
         }, {
             "source": 14,
             "target": 0,
-            value: "win"
+            "value": "win"
         }, {
             "source": 14,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 14,
             "target": 13,
-            value: "win"
+            "value": "win"
         }, {
             "source": 14,
             "target": 17,
-            value: "win"
+            "value": "win"
         }, {
             "source": 15,
             "target": 0,
-            value: "win"
+            "value": "win"
         }, {
             "source": 15,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 15,
             "target": 13,
-            value: "win"
+            "value": "win"
         }, {
             "source": 16,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 16,
             "target": 20,
-            value: "win"
+            "value": "win"
         }, {
             "source": 17,
             "target": 0,
-            value: "win"
+            "value": "win"
         }, {
             "source": 17,
             "target": 1,
-            value: "win"
+            "value": "win"
         }, {
             "source": 17,
             "target": 2,
-            value: "win"
+            "value": "win"
         }, {
             "source": 17,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 17,
             "target": 9,
-            value: "win"
+            "value": "win"
         }, {
             "source": 17,
             "target": 14,
-            value: "win"
+            "value": "win"
         }, {
             "source": 17,
             "target": 18,
-            value: "win"
+            "value": "win"
         }, {
             "source": 17,
             "target": 19,
-            value: "win"
+            "value": "win"
         }, {
             "source": 17,
             "target": 21,
-            value: "win"
+            "value": "win"
         }, {
             "source": 17,
             "target": 22,
-            value: "win"
+            "value": "win"
         }, {
             "source": 17,
             "target": 23,
-            value: "win"
+            "value": "win"
         }, {
             "source": 17,
             "target": 25,
-            value: "win"
+            "value": "win"
         }, {
             "source": 17,
             "target": 27,
-            value: "win"
+            "value": "win"
         }, {
             "source": 17,
             "target": 30,
-            value: "win"
+            "value": "win"
         }, {
             "source": 18,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 18,
             "target": 17,
-            value: "win"
+            "value": "win"
         }, {
             "source": 18,
             "target": 20,
-            value: "win"
+            "value": "win"
         }, {
             "source": 19,
             "target": 0,
-            value: "win"
+            "value": "win"
         }, {
             "source": 19,
             "target": 1,
-            value: "win"
+            "value": "win"
         }, {
             "source": 19,
             "target": 2,
-            value: "win"
+            "value": "win"
         }, {
             "source": 19,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 19,
             "target": 9,
-            value: "win"
+            "value": "win"
         }, {
             "source": 19,
             "target": 17,
-            value: "win"
+            "value": "win"
         }, {
             "source": 19,
             "target": 19,
-            value: "win"
+            "value": "win"
         }, {
             "source": 19,
             "target": 21,
-            value: "win"
+            "value": "win"
         }, {
             "source": 19,
             "target": 22,
-            value: "win"
+            "value": "win"
         }, {
             "source": 19,
             "target": 23,
-            value: "win"
+            "value": "win"
         }, {
             "source": 19,
             "target": 25,
-            value: "win"
+            "value": "win"
         }, {
             "source": 19,
             "target": 27,
-            value: "win"
+            "value": "win"
         }, {
             "source": 19,
             "target": 30,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 32,
-            value: "win"
+            "value": "win"
         }, {
             "source": 20,
             "target": 0,
-            value: "win"
+            "value": "win"
         }, {
             "source": 20,
             "target": 1,
-            value: "win"
+            "value": "win"
         }, {
             "source": 20,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 20,
             "target": 17,
-            value: "win"
+            "value": "win"
         }, {
             "source": 20,
             "target": 19,
-            value: "win"
+            "value": "win"
         }, {
             "source": 20,
             "target": 20,
-            value: "win"
+            "value": "win"
         }, {
             "source": 20,
             "target": 21,
-            value: "win"
+            "value": "win"
         }, {
             "source": 20,
             "target": 29,
-            value: "win"
+            "value": "win"
         }, {
             "source": 21,
             "target": 0,
-            value: "win"
+            "value": "win"
         }, {
             "source": 21,
             "target": 1,
-            value: "win"
+            "value": "win"
         }, {
             "source": 21,
             "target": 2,
-            value: "win"
+            "value": "win"
         }, {
             "source": 21,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 21,
             "target": 17,
-            value: "win"
+            "value": "win"
         }, {
             "source": 21,
             "target": 19,
-            value: "win"
+            "value": "win"
         }, {
             "source": 21,
             "target": 22,
-            value: "win"
+            "value": "win"
         }, {
             "source": 21,
             "target": 27,
-            value: "win"
+            "value": "win"
         }, {
             "source": 21,
             "target": 30,
-            value: "win"
+            "value": "win"
         }, {
             "source": 22,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 22,
             "target": 17,
-            value: "win"
+            "value": "win"
         }, {
             "source": 22,
             "target": 19,
-            value: "win"
+            "value": "win"
         }, {
             "source": 22,
             "target": 21,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 37,
-            value: "win"
+            "value": "win"
         }, {
             "source": 23,
             "target": 0,
-            value: "win"
+            "value": "win"
         }, {
             "source": 23,
             "target": 1,
-            value: "win"
+            "value": "win"
         }, {
             "source": 23,
             "target": 2,
-            value: "win"
+            "value": "win"
         }, {
             "source": 23,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 23,
             "target": 17,
-            value: "win"
+            "value": "win"
         }, {
             "source": 23,
             "target": 19,
-            value: "win"
+            "value": "win"
         }, {
             "source": 23,
             "target": 28,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 32,
-            value: "win"
+            "value": "win"
         }, {
             "source": 24,
             "target": 0,
-            value: "win"
+            "value": "win"
         }, {
             "source": 24,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 24,
             "target": 13,
-            value: "win"
+            "value": "win"
         }, {
             "source": 24,
             "target": 25,
-            value: "win"
+            "value": "win"
         }, {
             "source": 24,
             "target": 26,
-            value: "win"
+            "value": "win"
         }, {
             "source": 25,
             "target": 17,
-            value: "win"
+            "value": "win"
         }, {
             "source": 25,
             "target": 19,
-            value: "win"
+            "value": "win"
         }, {
             "source": 25,
             "target": 24,
-            value: "win"
+            "value": "win"
         }, {
             "source": 26,
             "target": 24,
-            value: "win"
+            "value": "win"
         }, {
             "source": 27,
             "target": 0,
-            value: "win"
+            "value": "win"
         }, {
             "source": 27,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 27,
             "target": 9,
-            value: "win"
+            "value": "win"
         }, {
             "source": 27,
             "target": 17,
-            value: "win"
+            "value": "win"
         }, {
             "source": 27,
             "target": 19,
-            value: "win"
+            "value": "win"
         }, {
             "source": 27,
             "target": 21,
-            value: "win"
+            "value": "win"
         }, {
             "source": 27,
             "target": 30,
-            value: "win"
+            "value": "win"
         }, {
             "source": 28,
             "target": 0,
-            value: "win"
+            "value": "win"
         }, {
             "source": 28,
             "target": 1,
-            value: "win"
+            "value": "win"
         }, {
             "source": 28,
             "target": 2,
-            value: "win"
+            "value": "win"
         }, {
             "source": 28,
             "target": 20,
-            value: "win"
+            "value": "win"
         }, {
             "source": 28,
             "target": 23,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 39,
-            value: "win"
+            "value": "win"
         }, {
             "source": 30,
             "target": 2,
-            value: "win"
+            "value": "win"
         }, {
             "source": 30,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 30,
             "target": 9,
-            value: "win"
+            "value": "win"
         }, {
             "source": 30,
             "target": 17,
-            value: "win"
+            "value": "win"
         }, {
             "source": 30,
             "target": 19,
-            value: "win"
+            "value": "win"
         }, {
             "source": 30,
             "target": 21,
-            value: "win"
+            "value": "win"
         }, {
             "source": 30,
             "target": 27,
-            value: "win"
+            "value": "win"
         }, {
             "source": 0,
             "target": 40,
-            value: "win"
+            "value": "win"
         }, {
             "source": 31,
             "target": 0,
-            value: "win"
+            "value": "win"
         }, {
             "source": 31,
             "target": 1,
-            value: "win"
+            "value": "win"
         }, {
             "source": 31,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 32,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 32,
             "target": 19,
-            value: "win"
+            "value": "win"
         }, {
             "source": 32,
             "target": 23,
-            value: "win"
+            "value": "win"
         }, {
             "source": 33,
             "target": 0,
-            value: "win"
+            "value": "win"
         }, {
             "source": 33,
             "target": 1,
-            value: "win"
+            "value": "win"
         }, {
             "source": 33,
             "target": 2,
-            value: "win"
+            "value": "win"
         }, {
             "source": 34,
             "target": 0,
-            value: "win"
+            "value": "win"
         }, {
             "source": 35,
             "target": 2,
-            value: "win"
+            "value": "win"
         }, {
             "source": 35,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 36,
             "target": 6,
-            value: "win"
+            "value": "win"
         }, {
             "source": 36,
             "target": 9,
-            value: "win"
+            "value": "win"
         }, {
             "source": 37,
             "target": 0,
-            value: "win"
+            "value": "win"
         }, {
             "source": 37,
             "target": 1,
-            value: "win"
+            "value": "win"
         }, {
             "source": 37,
             "target": 22,
-            value: "win"
+            "value": "win"
         }, {
-            "source": 38
-            "target": 13
-            value: "win"
+            "source": 38,
+            "target": 13,
+            "value": "win"
         }, {
-            "source": 39
-            "target": 29
-            value: "win"
+            "source": 39,
+            "target": 29,
+            "value": "win"
         }, {
-            "source": 40
-            "target": 30
-            value: "win"
+            "source": 40,
+            "target": 30,
+            "value": "win"
         }
 	]}
