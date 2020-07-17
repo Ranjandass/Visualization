@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono" rel="stylesheet">
+
+  <title>Harry Potter Characters.</title>
+
+  <!-- <link rel="stylesheet" href="/css/stylesheet.css"> -->
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-91161205-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-91161205-1');
+  </script>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-light">
+
+
+      <span class="navbar-brand mb-0 h1"></span>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation" name="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link " href="/">Home</a>
+          <a class="nav-item nav-link" href="https://github.com/senthilthyagarajan" target="_blank">GitHub</a>
+
+          <a class="nav-item nav-link " href="/page/about/">About</a>
+          <a class="nav-item nav-link " href="/page/resume/">Resume</a>
+          <a class="nav-item nav-link " href="/page/blogroll/">Blogroll</a>
+          <a class="nav-item nav-link " href="/page/reading/">Reading</a>
+          <a class="nav-item nav-link " href="https://twitter.com/TheRascala">Twitter</a>
+
+
+
+        </div>
+      </div-->
+    </nav>
+		<section id="page-title">
+      <h1><a href="/">CA682 - Data Visualisation Assignment</a></h1>
+	  <div class="blog-post-content">
+        Harry Potter is a series of fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).
+	  </div>
+      <!--span id="author-name">
+        <--!h6><a href="/page/about/"></a></h6>
+      </span-->
+    </section>
+	
+	<div class="flourish-embed" data-src="visualisation/1099302"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
+    
+
+    <div class="blog-post">
+      <h1>Harry Potter Characters.</h1>
+	  
+      <div class="blog-post-subheader">
+
+      </div>
+      <div class="blog-post-content">
+        Harry Potter and the Philosopher's Stone was the first movie to the franchise and begining to a journey of wizarding world. There are so many characters in this series by J.K Rowling. For this project I have decided to analyze character interaction through the movie. The data from
+        <a href="https://www.kaggle.com/gulsahdemiryurek/harry-potter-dataset">Kaggle</a>. The data was preprocessed and json was created which is pushed on my <a href="https://github.com/Ranjandass/Visualization">GitHub</a>.
+        Using d3js I have visualized the characters connected to each other.
+
+        <!--more-->
+
+
+
+        <style>
+          .link {
+            fill: none;
+            stroke-width: 0.5px;
+          }
+
+          .link.win {
+            stroke: #a6d96a;
+          }
+
+          .link.loss {
+            stroke: #ca0020;
+          }
+
+          .node text {
+            pointer-events: none;
+            font: 10px sans-serif;
+          }
+        </style>
+
+        <body>
+          <script src="https://d3js.org/d3.v3.min.js"></script>
+          <script>
+
+            //Constants for the SVG
+            var width = 1500,
+              height = 900;
+
+            //Set up the colour scale
+            var color = d3.scale.category10();
+
+            //Set up the force layout
+            var force = d3.layout.force()
+              .charge(-620)
+              .linkDistance(200)
+              .size([width, height]);
+
+            //Append a SVG to the body of the html page. Assign this SVG as an object to svg
+            var svg = d3.select("body").append("svg")
+              .attr("width", width)
+              .attr("height", height);
+
+            //Read the data from the mis element
+            d3.json("https://raw.githubusercontent.com/Ranjandass/Visualization/master/hp.json", function (error, graph) {
+              if (error) throw error;
+
+              //code to remove duplicate links & make source-target clones
+              var temp = [];
+              graph.links.forEach(function (l, i) {
+                for (var i = 0; i < temp.length; i++) {
+                  if ((temp[i].source == l.source && temp[i].target == l.target) || (temp[i].source == l.target && temp[i].target == l.source)) {
+                    return;
+                  }
+                }
+                temp.push(l);
+                temp.push({
+                  "source": l.target,
+                  "target": l.source,
+                  "value": l.value
+                });
+              });
+              graph.links = temp;
+              //end of duplication code
+
+              var nodeById = d3.map();
+              graph.nodes.forEach(function (node) {
+                nodeById.set(node.id, node);
+              });
+              graph.links.forEach(function (link) {
+                link.source = nodeById.get(link.source);
+                link.target = nodeById.get(link.target);
+              });
+
+              //Creates the graph data structure out of the json data
+              force.nodes(graph.nodes).links(graph.links).start();
+
+              //Create all the line svgs but without locations yet
+              var link = svg.selectAll(".link")
+                .data(graph.links)
+                .enter().append("line")
+                .attr("class", "link")
+                .style("stroke-width", function (d) {
+                  return Math.sqrt(d.value);
+                });
+
+              //Do the same with the circles for the nodes - no
+              //Changed
+              var radiusScale = d3.scale.linear()
+
+              var node = svg.selectAll(".node")
+                .data(graph.nodes)
+                .enter().append("g")
+                .attr("class", "node")
+                .call(force.drag);
+
+              node.append("circle")
+                //  .attr("r", 8)
+                .style("fill", function (d) {
+                  return color(d.group)
+                }).attr('r', function (d) {
+                  d.radius = radiusScale(d.count);
+                  return d.radius + 4;
+                });
+
+              node.append("text")
+                .attr("dx", function (d) { return radiusScale(d.count) + 5; })
+                .attr("dy", ".45em")
+                .text(function (d) {
+                  return d.name;
+                });
+              //End changed
+
+              node.on("mouseover", function (d) {
+                var highlightedNodes = {};
+
+                link.style('stroke-width', function (l) {
+                  if (d.id === l.source.id || d.id === l.target.id) {
+                    highlightedNodes[l.source.name] = 1;
+                    highlightedNodes[l.target.name] = 1;
+                    return 2;
+                  }
+                  return 0;
+                })
+              });
+
+              //Now we are giving the SVGs co-ordinates - the force layout is generating the co-ordinates which this code is using to update the attributes of the SVG elements
+              force.on("tick", function () {
+                link.attr("x1", function (d) {
+                  return d.source.x;
+                }).attr("y1", function (d) {
+                  return d.source.y;
+                }).attr("x2", function (d) {
+                  return d.target.x;
+                }).attr("y2", function (d) {
+                  return d.target.y;
+                });
+
+                link.attr("class", function (d) { return "link " + d.value });
+
+                //Changed
+                d3.selectAll("circle").attr("cx", function (d) {
+                  return d.x;
+                }).attr("cy", function (d) {
+                  return d.y;
+                });
+
+                d3.selectAll("text").attr("x", function (d) {
+                  return d.x;
+                }).attr("y", function (d) {
+                  return d.y;
+                });
+
+
+                function unhoverNode() {
+                  link.attr('stroke-width', 0.25);
+                };
+
+                //End Changed
+              });
+
+            });
+          </script>
+
+
+      </div>
+    </div>
+
+    <footer>
+      <hr>
+      <small>
+        Created in D3JS
+      </small>
+    </footer>
+  </div>
+
+
+
+</body>
+
+</html>
